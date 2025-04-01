@@ -1,0 +1,19 @@
+.student-panel {
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+    .menu-button {
+      border: 1px solid lightgray;
+      border-radius: 16px;
+      padding: 8px;
+
+      &.--selected {
+        background-color: dimgrey;
+        color: white;
+      }
+    }
+  }
+}

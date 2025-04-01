@@ -1,0 +1,16 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  .app {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+  }
+}
